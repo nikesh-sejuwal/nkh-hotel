@@ -1,0 +1,305 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+.clr {
+   clear: both;
+}
+.bx-3 {
+   font-size: 80px;
+}
+
+h1,
+h2,
+h3 {
+   padding-bottom: 20px;
+}
+
+h1 {
+   font-size: 25px;
+}
+
+h2 {
+   font-size: 20px;
+}
+
+h3 {
+   font-size: 18px;
+}
+
+p {
+   margin: 10px 0;
+}
+
+html,
+body {
+   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+   line-height: 1.7em;
+}
+
+a {
+   text-decoration: none;
+   color: #f5f5dc;
+}
+
+.heading-1 {
+   font-weight: 1500;
+   font-size: 70px;
+}
+.heading-2 {
+   font-weight: 800;
+   font-size: 40px;
+}
+
+.p-1 {
+   font-size: 20px;
+}
+
+.primary-font {
+   color: coral;
+}
+
+.btn {
+   text-align: center;
+   color: #ffffff;
+   font-size: large;
+   padding: 10px;
+   background: #262525;
+   border-radius: 12px;
+}
+
+.btn-secondary {
+   background: coral;
+   color: #000;
+}
+
+.btn-secondary:hover {
+   background: rgb(145, 139, 137) !important;
+   color: #fff;
+   transition: 500ms ease;
+}
+
+.btn:hover {
+   transition: 500ms ease-out;
+   background: coral;
+}
+
+.bg-dark {
+   background: rgb(132, 111, 104);
+   color: #f5f5dc;
+}
+.bg-dark1 {
+   background: #333;
+   color: #f5f5dc;
+}
+
+.bg-light {
+   color: #000;
+   background: #f5f5dc;
+}
+.bg-primary {
+   color: #000;
+   background-color: coral;
+}
+
+#navbar {
+   background: #000;
+   overflow: auto;
+   position: sticky;
+   top: 0;
+}
+
+#navbar h1 {
+   float: left;
+   font-size: 40px;
+   padding-top: 20px;
+   padding-left: 40px;
+   border-left: 2px solid coral;
+}
+
+#navbar ul {
+   list-style: none;
+   float: right;
+}
+
+#navbar ul li {
+   /* padding-right: 5px; */
+   float: left;
+}
+
+#navbar ul li a {
+   display: block;
+   padding: 20px;
+   font-size: 18px;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+   color: coral;
+   background: #333;
+}
+
+/* Info about text */
+
+.info {
+   /* overflow: auto; */
+   text-align: center;
+   color: aliceblue;
+   /* padding-top: 300px; */
+}
+
+.image-info {
+   padding-top: 350px;
+   background: url(../img_res_for_hotel2/my_first_page.jpg) no-repeat center
+      center/cover;
+   height: 650px;
+}
+
+/* History Image and history text */
+#history-info {
+   height: 500px;
+}
+
+#history-info .img-info {
+   float: left;
+   background: url(../img_res_for_hotel2/buildinf_1.jpg) no-repeat center
+      center/cover;
+   width: 50%;
+   min-height: 100%;
+}
+
+#history-info .content-info {
+   text-align: center;
+   margin: 0 50px;
+   padding-top: 100px;
+}
+
+/* Icons in CSS */
+
+#specification {
+   height: 250px;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+   float: left;
+   padding-top: 30px;
+   /* margin-top: 30px; */
+   text-align: center;
+   display: block;
+   width: 33.3%;
+   height: 250px;
+}
+
+/* Main Footer */
+#main-footer {
+   text-align: center;
+   padding: 1px 0;
+   background: #333;
+   color: #f5f5dc;
+}
+
+/* About Section */
+#about-info {
+   overflow: auto;
+}
+
+#about-info .ceo {
+   float: right;
+   padding-top: 50px;
+   max-width: 50%;
+   min-height: 100%;
+   margin-bottom: 30px;
+}
+#about-info .info-right {
+   float: left;
+   max-width: 50%;
+   min-height: 100%;
+}
+#about-info img {
+   /* float: left; */
+   display: block;
+   margin: 10px auto;
+   max-width: 50%;
+   border-radius: 30%;
+}
+#guests .all-color {
+   margin: 50px auto 0 auto;
+   max-width: 1100px;
+   height: 160px;
+   border-radius: 20px;
+   opacity: 0.75;
+}
+/* Guests says */
+#guests .all-color img {
+   margin-top: 10px;
+   /* margin-left: 190px; */
+   float: left;
+   max-width: 20%;
+   border-radius: 60%;
+   opacity: 0.9;
+}
+#guests .all-color p {
+   padding: 40px 10px;
+   text-align: center;
+}
+
+#guests {
+   background: url(../img_res_for_hotel2/pexels-pixabay-271639.jpg) no-repeat
+      center center/cover;
+   min-height: 100%;
+   /* margin-bottom: 30px; */
+}
+#guests h1 {
+   padding-top: 30px;
+   text-align: center;
+}
+
+/* Contact us */
+
+#contact h1 {
+   padding-top: 20px;
+}
+#contact form {
+   line-height: 2.5em;
+   /* margin-bottom: 20px; */
+   margin-left: 10px;
+}
+#contact form label {
+   display: block;
+   font-size: larger;
+   font-weight: 100;
+   margin-bottom: 5px;
+   /* color: #333; */
+}
+#contact form input,
+#contact form textarea {
+   width: 50%;
+   padding: 10px;
+   border: 1.5px #a9a5a5 solid;
+}
+
+#contact form textarea {
+   height: 200px;
+}
+
+.btn1 {
+   cursor: pointer;
+   color: white;
+   background: #333;
+   padding: 5px 10px;
+   padding-top: 10px;
+}
+.btn1:hover {
+   background-color: coral;
+}
+.box {
+   float: left;
+   width: 33.3%;
+   padding: 40px 10px;
+   text-align: center;
+   max-height: 100%;
+}
