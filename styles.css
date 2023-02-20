@@ -152,9 +152,8 @@ a {
 
 .image-info {
    padding-top: 350px;
-   background: url(../img_res_for_hotel2/my_first_page.jpg) no-repeat center
-      center/cover;
-   height: 650px;
+   background: url(./img/my_first_page.jpg) no-repeat center center/cover;
+   height: 700px;
 }
 
 /* History Image and history text */
@@ -164,8 +163,7 @@ a {
 
 #history-info .img-info {
    float: left;
-   background: url(../img_res_for_hotel2/buildinf_1.jpg) no-repeat center
-      center/cover;
+   background: url(./img/buildinf_1.jpg) no-repeat center center/cover;
    width: 50%;
    min-height: 100%;
 }
@@ -248,8 +246,7 @@ a {
 }
 
 #guests {
-   background: url(../img_res_for_hotel2/pexels-pixabay-271639.jpg) no-repeat
-      center center/cover;
+   background: url(./img/pexels-pixabay-271639.jpg) center center/cover;
    min-height: 100%;
    /* margin-bottom: 30px; */
 }
