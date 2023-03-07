@@ -152,7 +152,7 @@ a {
 
 .image-info {
    padding-top: 350px;
-   background: url(./img/my_first_page.jpg) no-repeat center center/cover;
+   background: url(./img/my_first_page-min.webp) no-repeat center center/cover;
    height: 810px;
 }
 
@@ -163,7 +163,7 @@ a {
 
 #history-info .img-info {
    float: left;
-   background: url(./img/buildinf_1.jpg) no-repeat center center/cover;
+   background: url(./img/buildinf_1-min.webp) no-repeat center center/cover;
    width: 50%;
    min-height: 100%;
 }
@@ -246,7 +246,7 @@ a {
 }
 
 #guests {
-   background: url(./img/pexels-pixabay-271639.jpg) center center/cover;
+   background: url(./img/pexels-pixabay-271639-min.webp) center center/cover;
    min-height: 100%;
    /* margin-bottom: 30px; */
 }
